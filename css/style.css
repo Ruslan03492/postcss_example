@@ -1,0 +1,22 @@
+@use cssnext;
+@use autoprefixer;
+p {
+    border-radius: 2rem;
+    margin: 2rem;
+    display: flex;
+}
+
+a {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+@media (width >= 500px) and (width <= 1200px) {
+    /* your styles */
+}
+
+a {
+    display: flex;
+    margin: 0;
+}
+
